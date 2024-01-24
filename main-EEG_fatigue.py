@@ -36,7 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('--load-path-final', default='./save_EEG-fatigue/final_model.pth')
     parser.add_argument('--save-model', type=bool, default=True)
     ######## Model Parameters ########
-    parser.add_argument('--train', type=str, default='independent')      #dependent：对象内 independent：跨对象
+    parser.add_argument('--train', type=str, default='independent')  
     parser.add_argument('--batch-size', type=int, default=1024)
     parser.add_argument('--model', type=str, default='NHGCN')
     parser.add_argument('--pool', type=int, default=64)
